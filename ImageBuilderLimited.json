@@ -1,0 +1,56 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "imagebuilder:DeleteDistributionConfiguration",
+                "imagebuilder:CreateImage",
+                "imagebuilder:GetComponent",
+                "imagebuilder:GetImagePipeline",
+                "imagebuilder:ListTagsForResource",
+                "imagebuilder:UpdateDistributionConfiguration",
+                "imagebuilder:DeleteComponent",
+                "imagebuilder:GetImageRecipe",
+                "imagebuilder:CreateContainerRecipe",
+                "imagebuilder:ImportVmImage",
+                "imagebuilder:GetImage",
+                "imagebuilder:CreateImagePipeline",
+                "imagebuilder:ImportComponent",
+                "imagebuilder:GetInfrastructureConfiguration",
+                "imagebuilder:GetImageRecipePolicy",
+                "imagebuilder:UpdateImagePipeline",
+                "imagebuilder:GetImagePolicy",
+                "imagebuilder:CancelImageCreation",
+                "imagebuilder:TagResource",
+                "imagebuilder:GetComponentPolicy",
+                "imagebuilder:StartImagePipelineExecution",
+                "imagebuilder:CreateImageRecipe",
+                "imagebuilder:CreateDistributionConfiguration",
+                "imagebuilder:DeleteContainerRecipe",
+                "imagebuilder:GetDistributionConfiguration",
+                "imagebuilder:GetContainerRecipe",
+                "imagebuilder:DeleteInfrastructureConfiguration",
+                "imagebuilder:CreateInfrastructureConfiguration",
+                "imagebuilder:DeleteImage",
+                "imagebuilder:CreateComponent",
+                "imagebuilder:DeleteImagePipeline",
+                "imagebuilder:DeleteImageRecipe",
+                "imagebuilder:GetContainerRecipePolicy",
+                "imagebuilder:UpdateInfrastructureConfiguration",
+                "imagebuilder:UntagResource"
+            ],
+            "Resource": [
+                "arn:aws:imagebuilder:*:564943571040:image-recipe/*/*",
+                "arn:aws:imagebuilder:*:564943571040:infrastructure-configuration/*",
+                "arn:aws:imagebuilder:*:564943571040:component/*/*/*",
+                "arn:aws:imagebuilder:*:564943571040:image/*/*/*",
+                "arn:aws:imagebuilder:*:564943571040:image-pipeline/*",
+                "arn:aws:kms:*:564943571040:key/*",
+                "arn:aws:imagebuilder:*:564943571040:distribution-configuration/*",
+                "arn:aws:imagebuilder:*:564943571040:container-recipe/*/*"
+            ]
+        }
+    ]
+}
